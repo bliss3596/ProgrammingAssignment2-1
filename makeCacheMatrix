@@ -1,0 +1,36 @@
+
+##Assingment2
+##Student:bliss3596
+makeCacheMatrix <- function(x = matrix()) 
+{
+
+
+        im <- NULL
+        set <- function(y)
+        {
+                x <<- y
+                im <<- NULL
+        }
+        get <- function() x
+        setinv <- function(y) im <<- y   ## create subfunction to set inverse matrix  
+        getinv <- function()  im         ## create subfunction to get inverse matrix
+        list(set = set, get = get, 
+             setinv = setinv, 
+             getinv = getinv)            ## make a list of subfunction
+  
+}
+
+ 
+ 
+
+
+ 
+   
+
+Status
+ API
+ Training
+ Shop
+ Blog
+ About
+ 
